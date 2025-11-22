@@ -1,0 +1,23 @@
+{
+	"name": "k2-reinforced-plates-fixed",
+	"version": "1.0.1",
+	"title": "K2: Reinforced Plates (2.0)",
+	"description": "Adds Krastorio 2 reinforced plates (2.0)",
+	"author": "NickLatkovich",
+	"factorio_version": "2.0",
+	"dependencies": [
+		"base >= 2.0.0",
+		"!Krastorio2",
+		"?Dectorio >= 0.10.5",
+		"?space-exploration"
+	],
+	"package": {
+		"ignore": [
+			".git",
+			".gitignore",
+			".vscode",
+			"format.cfg",
+			".fmodignore"
+		]
+	}
+}
